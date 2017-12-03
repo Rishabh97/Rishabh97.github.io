@@ -1,0 +1,445 @@
+/*html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}*/
+
+#body-header {
+    position: fixed;
+    width: 100%;
+    background-color: #6400ff;
+    opacity: 0.9;
+    z-index: 5;
+          -webkit-animation-duration: 2s;
+-moz-animation-duration: 2s;
+-ms-transition-animation-duration: 2s;
+
+}
+#body-header ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: "Montserrat", sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+#body-header ul li a:link, a:visited{
+    display: block;
+    color: #ffffff;
+    /*background-color:#98bf21;*/
+    width: 150px;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+    letter-spacing: 1.5px;
+    font-weight: 700;
+    font-size: 15px;
+
+}
+
+#body-header ul li a:hover,a:active{
+transition: background-color 1s ease;
+
+background-color: black;
+
+}
+
+#body-header ul li{
+line-height: 70px;
+
+}
+
+section{
+	height: 100vh;
+	width: 100%;
+}
+
+#first{
+    height: 70vh;
+    width: 100%;
+}
+section img{
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+    position: relative;
+
+}
+
+#intro{
+    position: absolute;
+
+    margin-top: 40vh;
+    margin-left: 4%;
+    margin-right: 4%;
+    font-size: 6em;
+    font-family: "Montserrat", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    color: #ffffff;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: 1.5px;
+
+          -webkit-animation-duration: 4s;
+-moz-animation-duration: 4s;
+-ms-transition-animation-duration: 4s;
+}
+
+#first{
+    display: flex;
+}
+#left-half{
+	height: 100vh;
+	width: 50%;
+    background-color: #f5f5f5;
+}
+#right-half{
+	height: 100vh;
+	width: 50%;
+	background-color: #00083a;
+
+}
+
+#p1{
+	margin-top: 20vh;
+	margin-left: 15%;
+	font-size: 2em;
+    font-family: "Montserrat", sans-serif;
+    -webkit-font-smoothing: antialiased;
+	color: #fd6155;
+	font-weight: 700;
+
+}
+
+#p2{
+	margin-top: 5vh;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-size: 2.8em;
+    font-family: "Montserrat", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    color: black;
+    font-weight: 500;
+    background-color: #ffbaba;
+    line-height: 1.5;
+
+        -webkit-animation-duration: 2s;
+-moz-animation-duration: 2s;
+-ms-transition-animation-duration: 2s;
+}
+
+#p3{
+	margin-top: 5vh;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-size: 1em;
+    font-family: "Montserrat", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    color: #3e3b3b;
+    font-weight: 100;
+    font-size: 20px;
+    line-height: 1.5;
+    background-color: #fdba58;
+          -webkit-animation-duration: 2s;
+-moz-animation-duration: 2s;
+-ms-transition-animation-duration: 2s;
+
+}
+
+
+section div span{
+
+    margin-top: 5vh;
+    margin-left: 15%;
+    margin-right: 15%;
+    
+    font-family: "Montserrat", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    color: #3e3b3b;
+    font-weight: 500;
+    font-size: 100px;
+    line-height: 1.2;    
+}
+
+#p4{
+    margin-top: 20vh;
+    margin-left: 15%;
+    font-size: 2em;
+    font-family: "Montserrat", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    color: #fd6155;
+    font-weight: 700;
+
+}
+#about{
+    margin-top: 5vh;
+    margin-left: 15%;
+    margin-right: 15%;
+    line-height: 1.4;
+    font-size: 1.1em;
+    font-family: "Montserrat", sans-serif;
+    -webkit-font-smoothing: antialiased;
+
+    color: white;
+
+    font-weight: 100;    
+}
+
+
+.heading{
+    margin-top: 15vh;
+    text-align: center;
+    line-height: 1.4;
+    letter-spacing: 5px;
+    font-family: "Montserrat", sans-serif;
+    -webkit-font-smoothing: antialiased;
+
+    color: rgba(0, 0, 0, 0.46);
+
+    font-weight: 100;       
+}
+
+.heading-below{
+    margin-top: 2vh;
+
+    text-align: center;
+    line-height: 2.4;
+    font-size: 2em;
+    letter-spacing: 2px;
+    font-family: "Montserrat", sans-serif;
+    -webkit-font-smoothing: antialiased;
+
+    color: black;
+
+
+    font-weight: 700;       
+}
+#education-container{
+    display: flex;
+    justify-content: space-around;
+    background-color: #f7f7f7;
+
+}
+
+#dtu{
+    width: 30%;
+    margin-left: 10%;
+    height: 65vh;
+    
+    margin-top: 5vh;
+      -webkit-animation-duration: 2s;
+-moz-animation-duration: 2s;
+-ms-transition-animation-duration: 2s;
+
+
+
+}
+
+#montfort{
+
+    width: 30%;
+    margin-right: 10%;
+    height: 65vh;
+    
+    margin-top: 30vh;
+    margin-bottom: 5vh;
+          -webkit-animation-duration: 4s;
+-moz-animation-duration: 4s;
+-ms-transition-animation-duration: 4s;
+}
+
+.edu-img-1{
+    width: 100%;
+    height: 70%;
+    background-color: rgb(192, 231, 249);
+    border-radius: 25px;
+
+
+
+
+    background-image: url(../images/dtu1.png);
+    background-size: 50% auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+
+.edu-img-2{
+    width: 100%;
+    height: 70%;
+    background-color: #ffaaaa;
+    border-radius: 25px;
+
+    background-image: url(../images/montfort.gif);
+    background-size: 50% auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.edu-text{
+  margin-top: 5vh;
+    text-align: center;
+    line-height: 1.4;
+    letter-spacing: 3px;
+    font-family: "Montserrat", sans-serif;
+    -webkit-font-smoothing: antialiased;
+
+    color: rgba(0, 0, 0, 0.46);
+
+    font-weight: 700;   
+}
+
+#extra-dark{
+    color: #000000;
+    font-weight: 700;
+}
+
+#training-section{
+    height: 70vh;
+    width: 100%;
+}
+#section-container{
+    display: flex;
+}
+
+#java-box{
+    width: 50%;
+    height: 53vh;
+    background-color: rgb(255, 61, 0);
+    opacity: 0.8;
+
+    -webkit-animation-duration: 3s;
+-moz-animation-duration: 3s;
+-ms-transition-animation-duration: 3s;
+}
+#rails-box{
+    width: 50%;
+    height:53vh;
+    background-color: #060606;
+    opacity: 0.8;
+
+    -webkit-animation-duration: 3s;
+-moz-animation-duration: 3s;
+-ms-transition-animation-duration: 3s;
+}
+
+#inside-box-1{
+    margin-top: 5vh;
+    text-align: center;
+    font-size: 2em;
+    font-family: "Montserrat", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    color: #ffffff;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: 1.5px;
+}
+
+
+
+#inside-box-2{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 5vh;
+    text-align: center;
+    font-size: 1em;
+    font-family: "Montserrat", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    color: #ffffff;
+    font-weight: lighter;
+    line-height: 2;
+    letter-spacing: 1.5px;
+
+}
+#under-works{
+    background-color: maroon;
+    height: 83vh;
+}
+
+#contact-writeup-1{
+    background-color: whitesmoke;
+    height: 75vh;
+    padding-top: 10vh;
+}
+
+
+
+#under-contact{
+    /*margin-top: 2vh;*/
+    margin-left: 0;
+    margin-right: 0;
+    line-height: 2.4;
+    font-size: 1.5em;
+    letter-spacing: 2px;
+    font-family: "Montserrat", sans-serif;
+    -webkit-font-smoothing: antialiased;
+
+    color: grey;
+
+    font-weight: 700; 
+}
+
+#contact-writeup-1 p{
+
+    margin-left: 35%;
+    margin-right: 35%;
+    text-align: center;
+    line-height: 2.4;
+    font-size: 1.1em;
+    letter-spacing: 2px;
+    font-family: "Montserrat", sans-serif;
+    -webkit-font-smoothing: antialiased;    
+}
+
+#contact-writeup-1 p a{
+    text-decoration: none;
+}
+
+#tag{
+   
+
+    margin-top: 5vh;
+    font-size: 8px;
+    font-family: "Montserrat", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    color: black;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: 1.5px;   
+}
+
+#scroll-top{
+    height: 14vh;
+    margin-left: 46%; 
+    width: 90px;
+    background-color: white;
+    border-radius: 60px;
+    background-image: url(../images/up.png);
+    background-size: 100% auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+      transition-timing-function: ease;
+
+}
+
+#scroll-top:hover{
+    
+    transition: background-size 0.5s ease;
+
+
+    height: 14vh;
+    margin-left: 46%; 
+    width: 90px;
+    background-color: white;
+    border-radius: 60px;
+    background-image: url(../images/up.png);
+    background-size: 90% auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+
+
+}
+
