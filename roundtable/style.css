@@ -1,0 +1,315 @@
+body{
+	margin: 0px 0px;
+}
+#body-header {
+	position: fixed;
+	width: 100%;
+    background-color: rgba(86, 83, 85, 0.48);
+
+}
+
+
+
+
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+
+
+a:link, a:visited{
+	display: block;
+	color: #ffffff;
+	background-color:98bf21;
+	width: 120px;
+	text-align: center;
+	padding: 4px;
+	text-transform: uppercase;
+	text-decoration: none;
+
+}
+
+a:hover,a:active{
+
+background-color: rgba(33, 33, 33, 0.74);
+
+
+}
+
+li{
+line-height: 60px;
+
+}
+
+#body-header{
+	background-color: black;
+    z-index: 5;
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#logo{
+
+    width: 10%;
+    height: 40px;
+    margin-top: 15px;
+    margin-left: 10px;
+
+}
+
+
+.scroll{
+    
+    font-family: "Montserrat", sans-serif;
+    -webkit-font-smoothing: antialiased;
+
+
+}
+
+
+.active{
+    background-color: grey
+   /* color: black*/;
+    font-size: 18px;
+    -webkit-animation-duration: 2s;
+    -moz-animation-duration: 2s;
+    -ms-transition-animation-duration: 2s;
+    
+
+}
+.extra{
+	position: relative;
+}
+
+#img{
+	//position: absolute;
+    height: 400px;
+    width: 100%;
+
+}
+#img-text{
+	position: absolute;
+	margin-left: 20%;
+	margin-top: 30vh;
+	color: #ffffff;
+	font-size: 70px;
+	font-weight: bold;
+
+}
+
+
+@media screen and (max-width: 868px){
+
+     #img-text{
+    position: absolute;
+    margin-left: 10%;
+    margin-top: 20vh;
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: bold;
+
+    }
+
+    
+
+}
+
+
+@media screen and (max-width: 480px){
+
+    #img-text{
+    position: absolute;
+    margin-left: 20%;
+    margin-top: 30vh;
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: bold;
+
+    }
+
+}
+
+
+
+
+#img-font-awesome-2{
+    position: absolute;
+    margin-left: 14%;
+    margin-top: 32vh;
+    color: #ffffff;
+    font-size: 70px;
+    font-weight: bold;
+}
+
+
+
+#img-font-awesome-5{
+    position: absolute;
+    margin-left: 82%;
+    margin-top: 32vh;
+    color: #ffffff;
+    font-size: 70px;
+    font-weight: bold;
+}
+
+
+.event{
+	padding-top: 150px;
+    padding-bottom: 100px;
+    background: #FFF;
+}
+
+
+
+section.event h6{
+	width: 70%;
+    margin: auto;
+    font-family: "Karla", sans-serif;
+    font-size: 1.5em;
+    font-weight: 700;
+    color: #554;
+    padding-left: 30px;
+    border-left: 5px solid #e74c3c;
+}
+
+
+section.event p {
+    font-family: "Karla", sans-serif;
+    font-size: .9em;
+    text-align: justify;
+    line-height: 1.5;
+    color: #554;
+    width: 70%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+
+
+
+
+.event-pics-box{
+	    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+
+
+.event-pics-box img{
+
+    height: 150px;
+    width: 225px;
+
+    display: inline-block;
+    vertical-align: middle;
+    margin: 10px 10px;
+    padding: 5px;
+    border: 3px solid #554;
+ 
+
+}
+
+
+
+.event-pics-box img:hover{
+
+    height: 150px;
+    width: 225px;
+
+    display: inline-block;
+    vertical-align: middle;
+    margin: 10px 10px;
+    padding: 1px;
+    border: 7px solid #554;    
+}
+
+
+footer{
+	background-color: rgba(128, 128, 128, 0.19);
+/*	height: 300px;
+*/}
+.wrapper-footer{
+	width: 70%;
+	margin: auto;
+	 
+	height: 100%;
+}
+#info{
+	width: 49%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: inline-block;
+    vertical-align: top;
+
+}
+#connect-us img{
+    display: inline-block;
+	margin-right: 20px;
+}
+
+#end-tag{
+
+    text-align: center;
+    font-family: "Karla", sans-serif;
+    font-size: 1em;
+    color: rgba(0, 0, 0, 0.6);
+
+
+}
+footer .wrapper-footer #info h3 {
+    width: 70%;
+    margin: auto;
+    font-family: "Karla", sans-serif;
+    font-weight: 400;
+    font-size: .8em;
+    color: #e74c3c;
+    padding: 5px 5px;
+}
+
+footer .wrapper-footer #info p{
+    width: 70%;
+    margin: auto;
+    font-family: "Karla", sans-serif;
+    font-weight: 400;
+    font-size: .8em;
+    color: rgba(0, 0, 0, 0.8);
+
+}
+
+footer .wrapper-footer #info #connect-us{
+    padding-left: 60px;
+    padding-top: 20px;
+}
+
+::-webkit-scrollbar{
+    width: 7px;
+
+}
+
+::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    background-color: #a6a6a6;
+    box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+
+}
+
+::-webkit-scrollbar-track{
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+
+}
+
+
