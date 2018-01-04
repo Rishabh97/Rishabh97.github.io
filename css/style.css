@@ -54,19 +54,19 @@ body{
     text-decoration: none;
     letter-spacing: 1.2px;
     font-weight: 700;
-    font-size: 14px;
+    font-size: 10px;
 
 }
 
 #body-header ul li a:hover,a:active{
 transition: background-color 1s ease;
 
-background-color: white;
-color: black;
+//background-color: white;
+color: grey;
  background-position:right bottom;
-     font-size: 18px;
+     font-size: 10px;
      font-weight: 700;
-
+transition: all 0.4s ease;
 
 }
 
