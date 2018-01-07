@@ -1002,6 +1002,19 @@ b{
     background-repeat: no-repeat;
 
 }
+
+#techfest{
+
+    height: 30vh;
+    width: 100%;
+
+    background-color: white;
+    background-image: url(../images/fest.png);
+    background-size: 30% 60%;
+    background-position: 40% center;
+    background-repeat: no-repeat;
+
+}
 #work-text{
 
     margin-left: 0;
