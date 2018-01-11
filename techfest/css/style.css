@@ -34,22 +34,23 @@ body{
 
 	width: 70%;
 	margin: auto;
+    
 /*	position: absolute;
-*/	/*top:50%;
+top:50%;
 	left: 50%;*/
 /*	transform: translateX(-50%) translateY(-50%);
 */	text-align: center;
-	background: #fff
+	background: #fff;
 /*	border: 7px solid #d4471a;
 */	padding: 20px;
 	box-shadow: 0 0 10px 10px #ccc;
-	z-index: 1000;
-	margin-bottom: 5vh;
+/*	z-index: 1000;
+*/	margin-bottom: 5vh;
 }
 
 #heading{
 	  font-family: "Didact Gothic", sans-serif;
-    font-size: 2em;
+    font-size: 3em;
     color: #000;
     text-align: center;
     text-transform: uppercase;
@@ -60,6 +61,7 @@ body{
     -webkit-margin-end: 0px;
     font-weight: bold;
     margin-top: 10vh;
+    line-height: 2px;
 
 }
 #heading-1{
@@ -105,6 +107,28 @@ body{
     background-color: #f9f9f9;
 padding-top: 5vh;
 	padding-bottom: 5vh;
+}
+
+#main-section{
+border: 0.1px solid #d0e0ea;
+ background-image: url(../images/bg3.png);
+    background-size: 100% auto;
+    background-position: center center;
+    background-repeat: no-repeat;  
+
+
+    /*background-image: url(../images/bg.jpg);
+    background-size: 50% auto;
+    background-position: center center;
+    background-repeat: no-repeat;*/
+}
+
+.color{
+    position: absolute;
+    opacity: 0.7;
+    height: 100%;
+    width: 100vw;
+    background-color: #111;
 }
 #about{
    
@@ -163,21 +187,89 @@ b{
 
 }
 
+/*.photo{
+    margin-top: 5vh;
+    border-radius: 50px;
+    border: 1px solid black;
+    height: 30vh;
+    width: 50%;
+    margin: 5vh auto;
+}*/
+
 .edu-img-1{
     width: 100%;
-    height: 70%;
+    height: 50%;
 /*    background-color: rgb(192, 231, 249);
 */    border-radius: 25px;
 
 
 
-
-    background-image: url(../images/dtu1.png);
+    background-image: url(../images/code.png);
     background-size: 50% auto;
     background-position: center center;
     background-repeat: no-repeat;
 }
+.edu-img-2{
+    width: 100%;
+    height: 50%;
+/*    background-color: rgb(192, 231, 249);
+*/    border-radius: 25px;
 
+
+
+    background-image: url(../images/presentation.png);
+    background-size: 50% auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+}.edu-img-3{
+    width: 100%;
+    height: 50%;
+/*    background-color: rgb(192, 231, 249);
+*/    border-radius: 25px;
+
+
+
+    background-image: url(../images/poster.png);
+    background-size: 50% auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+}.edu-img-4{
+    width: 100%;
+    height: 50%;
+/*    background-color: rgb(192, 231, 249);
+*/    border-radius: 25px;
+
+
+
+    background-image: url(../images/brand.png);
+    background-size: 50% auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+}.edu-img-5{
+    width: 100%;
+    height: 50%;
+/*    background-color: rgb(192, 231, 249);
+*/    border-radius: 25px;
+
+
+
+    background-image: url(../images/bid.png);
+    background-size: 50% auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+}.edu-img-6{
+    width: 100%;
+    height: 50%;
+/*    background-color: rgb(192, 231, 249);
+*/    border-radius: 25px;
+
+
+
+    background-image: url(../images/casestudy.png);
+    background-size: 50% auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
 .edu-text{
   margin-top: 1vh;
     text-align: center;
@@ -194,5 +286,80 @@ b{
 #extra-dark{
     color: #000000;
     font-weight: 700;
+        text-transform: uppercase;
+        font-size: 1.5em;
 }
 
+#team-section{
+    height: auto;
+    background-color: #111;
+    padding: 5vh;
+
+/*    padding-bottom: 10vh;
+*/}
+
+.team{
+    width: 90%;
+    margin: auto;
+    height: 50vh;
+        overflow: hidden;
+        border-radius: 20px;
+/*            box-shadow: -2px -2px 18px 0px #9E9E9E;
+*/
+
+}
+
+.members-container{
+    width: 200%;
+    background-color: white;
+    height: 100%;
+    //max-width: 100%;
+    display: flex;
+    flex-direction: row;
+
+}
+
+#members{
+    width: 15vw;
+    margin-left: 4vw;
+    height: 80%;
+    background-color: #c5c5c5;
+    margin-top: 6vh;
+    border-radius: 15px;
+}
+
+#event-info{
+    height: 7vh;
+    
+    width: 70%;
+    margin-top: 5vh;
+    margin:auto;
+    font-family: "Montserrat", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 1.2em;
+    background-color: #9e2a2a;
+    color: white;
+    font-weight: 700;
+    border: 0;
+    text-transform: uppercase;
+
+
+}
+
+#event-info:hover{
+    height: 7vh;
+
+    width: 70%;
+    margin-top: 5vh;
+    margin:auto;
+    font-family: "Montserrat", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 1.2em;
+    background-color:#111;
+    color: #9e2a2a;
+    font-weight: 700;
+    border: 0;
+        text-transform: uppercase;
+
+
+}
