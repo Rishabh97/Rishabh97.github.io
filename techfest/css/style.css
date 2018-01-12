@@ -22,6 +22,7 @@ body{
     box-shadow: inset 0 0 6px rgba(0,0,0,.3);
 
 }
+
 .info{
 	font-size: 3em;
 	color: #000;
@@ -42,10 +43,18 @@ top:50%;
 */	text-align: center;
 	background: #fff;
 /*	border: 7px solid #d4471a;
-*/	padding: 20px;
+*/	padding: 10px;
 	box-shadow: 0 0 10px 10px #ccc;
 /*	z-index: 1000;
 */	margin-bottom: 5vh;
+
+
+
+
+background-image: url(../images/gradient.jpg);
+    background-size: 100% auto;
+    background-position: center center;
+    background-repeat: no-repeat;
 }
 
 #heading{
@@ -290,6 +299,33 @@ b{
         font-size: 1.5em;
 }
 
+
+
+
+@media screen and (max-width: 480px){
+
+
+
+        #dtu{
+    background-color: #fff;
+    width: 85%;
+    margin: auto; 
+    height: 65vh;
+    
+    margin-top: 5vh;
+      -webkit-animation-duration: 2s;
+-moz-animation-duration: 2s;
+-ms-transition-animation-duration: 2s;
+
+    box-shadow: 10px 10px 20px 5px rgba(0, 0, 0, 0.05);
+
+
+            }
+
+
+
+}
+
 #team-section{
     height: auto;
     background-color: #111;
@@ -328,6 +364,8 @@ b{
     border-radius: 15px;
 }
 
+
+
 #event-info{
     height: 7vh;
     
@@ -362,4 +400,17 @@ b{
         text-transform: uppercase;
 
 
+}
+
+#test{
+    background-color: #607D8B;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+.test-1{
+
+
+    color: #636363;
+    font-weight: 700;
 }
