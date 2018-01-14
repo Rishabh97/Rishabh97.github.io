@@ -344,7 +344,11 @@ b{
 
 @media screen and (max-width: 480px){
 
-
+#events-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+}
 
         #dtu{
     background-color: #fff;
@@ -353,15 +357,14 @@ b{
     height: 65vh;
     
     margin-top: 5vh;
-      -webkit-animation-duration: 2s;
--moz-animation-duration: 2s;
--ms-transition-animation-duration: 2s;
+    -webkit-animation-duration: 2s;
+    -moz-animation-duration: 2s;
+    -ms-transition-animation-duration: 2s;
 
     box-shadow: 10px 10px 20px 5px rgba(0, 0, 0, 0.05);
 
 
-            }
-
+    }
 
 
 }
