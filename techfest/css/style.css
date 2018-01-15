@@ -24,29 +24,19 @@ body{
 }
 
 #logos-container{
-    width: 80%;
-    margin: auto;
-}
-
-
-.rt{
-
-    margin-left: 20vw;
-    width: 15%;
-    height: 30vh;
-}
-.and{
-    width: 10%;
-    width: 5%;
-    margin-left: 10%;
-    margin-right: 10%;
+    display: flex;
+    justify-content: space-evenly;
     padding-top: 10vh;
+    /*width: 80%;
+    margin: auto;*/
 }
-.sr{
 
-    width: 10%;
-    height: 20vh;
-    padding-bottom: 5vh;
+
+
+.one{
+
+    width: 50%;
+    height: 30vh;
 
 }
 
@@ -62,7 +52,6 @@ body{
 
 	width: 70%;
 	margin: auto;
-    
 /*	position: absolute;
 top:50%;
 	left: 50%;*/
@@ -70,8 +59,8 @@ top:50%;
 */	text-align: center;
 	background: #fff;
 /*	border: 7px solid #d4471a;
-*/	padding: 10px;
-	box-shadow: 0 0 10px 10px #ccc;
+*/	padding: 1%;
+	box-shadow: 0 0 1vw 1vw #ccc;
 /*	z-index: 1000;
 */	margin-bottom: 5vh;
 
@@ -79,7 +68,7 @@ top:50%;
 
 
 background-image: url(../images/gradient.jpg);
-    background-size: 100% auto;
+    background-size: 100% 100%;
     background-position: center center;
     background-repeat: no-repeat;
 }
@@ -100,6 +89,9 @@ background-image: url(../images/gradient.jpg);
     line-height: 2px;
 
 }
+
+
+
 #heading-1{
 	  font-family: "Didact Gothic", sans-serif;
     font-size: 2em;
@@ -148,7 +140,7 @@ padding-top: 5vh;
 #main-section{
 border: 0.1px solid #d0e0ea;
  background-image: url(../images/bg3.png);
-    background-size: 100% auto;
+    background-size: 100% 100%;
     background-position: center center;
     background-repeat: no-repeat;  
 
@@ -343,6 +335,51 @@ b{
 
 
 @media screen and (max-width: 480px){
+
+
+    table, thead, tbody, th, td, tr { 
+        display: block; 
+    }
+
+
+    .info{
+    font-size: 1em;
+    color: #000;
+    font-family: "Montserrat", sans-serif;
+    -webkit-font-smoothing: antialiased;
+
+}
+
+    #logos-container{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 2vh;
+    /*width: 80%;
+    margin: auto;*/
+}
+
+    #heading-below{
+      font-family: "Roboto", monospace;
+    font-size: 0.8em;
+    color: rgba(0, 0, 0, 0.46);
+    text-align: center;
+    letter-spacing: 2px;
+    -webkit-margin-before: 1.33em;
+    -webkit-margin-after: 1.33em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 2vh;
+}
+
+
+    .one{
+
+    width: 70%;
+    height: 15vh;
+
+}
 
 #events-container{
     display: flex;
@@ -626,4 +663,23 @@ b{
 
     color: #636363;
     font-weight: 700;
+}
+
+@media screen and (max-width: 480px){
+
+    .test-1{
+
+    width: 50%;
+    color: #636363;
+    font-weight: 700;
+    }
+
+    #test{
+        width: 50%;
+    background-color: #607D8B;
+    border-radius: 10px;
+    padding: 2px;
+    }
+
+
 }
