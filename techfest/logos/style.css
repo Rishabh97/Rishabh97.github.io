@@ -1,0 +1,77 @@
+body{
+    margin: 0px 0px;
+    overflow-x: hidden;
+}
+
+#section-1{
+	height: 50vh;
+	background-color: #111;
+}
+#section-2{
+	height:auto;
+	background-color: white;
+}
+
+#title{
+
+	font-family: "Didact Gothic", sans-serif;
+    font-size: 3em;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: bold;
+    margin: 0 auto;
+    padding-top: 22vh;
+}
+
+.black-1{
+	border: 3px solid #fff;
+    margin-top: 5vh;
+    margin-left: 47%;
+    margin-right: 47%;
+    margin-bottom: 10vh;
+    
+}
+
+#rules{
+	width: 83%;
+	font-family: "Didact Gothic", sans-serif;
+    font-size: 1.4em;
+    color: #554;
+/*    text-align: center;
+*/    letter-spacing: 1.5px;
+    font-weight: bold;
+    margin: 10vh auto;
+}
+
+
+h5{
+	width: 50%;
+	margin: 0 auto;
+    font-family: "Karla", sans-serif;
+    font-size: 1.2em;
+    font-weight: 700;
+    color: #111;
+/*    padding-left: 30px;
+*/    border-left: 20vw solid #111;
+    border-right: 20vw solid #111;
+
+    margin-bottom: 5vh;
+    margin-top: 10vh;
+    text-align: center;
+font-style: italic;
+}
+h6{
+	width: 80%;
+    margin: auto;
+    font-family: "Karla", sans-serif;
+    font-size: 2em;
+    font-weight: 700;
+    color: #111;
+    padding-left: 30px;
+    border-left: 7px solid #111;
+    margin-bottom: 5vh;
+    margin-top: 10vh;
+
+}
