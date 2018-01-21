@@ -80,7 +80,7 @@ background-image: url(../images/gradient.jpg);
 
 #heading{
 	  font-family: "Didact Gothic", sans-serif;
-    font-size: 3em;
+    font-size: 2em;
     color: #000;
     text-align: center;
     text-transform: uppercase;
@@ -92,7 +92,7 @@ background-image: url(../images/gradient.jpg);
     font-weight: bold;
     margin-top: 10vh;
     line-height: 2px;
-
+    padding-bottom: 3vh;
 }
 
 
@@ -129,7 +129,7 @@ background-image: url(../images/gradient.jpg);
 #about-section{
 	width: 100%;
 	margin: auto;
-	background-color: #111;
+	background-color: white;
 	padding-top: 5vh;
 	padding-bottom: 5vh;
 }
@@ -143,11 +143,14 @@ padding-top: 5vh;
 }
 
 #main-section{
-border: 0.1px solid #d0e0ea;
- background-image: url(../images/bg3.png);
+
+    border: 0.1px solid #d0e0ea;
+    background-image: url(../images/bg3.png);
     background-size: 100% 100%;
     background-position: center center;
     background-repeat: no-repeat;  
+    background-color: transparent;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, .95) 0%, rgba(22, 23, 26, .95) 25%, rgba(22, 23, 26, .95) 50%); 
 
 
     /*background-image: url(../images/bg.jpg);
@@ -166,14 +169,19 @@ border: 0.1px solid #d0e0ea;
 #about{
    
 
-	width: 70%;
+	width: 50%;
 	margin: auto;
     font-family: "Didact Gothic", sans-serif;
-    font-size: 1.3em;
-    color: #fff;
+    font-size: 1.2em;
+    color: #222;
     line-height: 2;
     padding-bottom: 20px;
     margin-bottom: 5vh;
+    margin-top: 5vh;
+}
+
+b{
+    font-weight: bold;
 }
 
 .black{
