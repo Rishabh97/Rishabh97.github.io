@@ -9,7 +9,7 @@ body{
     padding-bottom: 10vh;
 background-size: 100% 100%;
     background-position: center center;
-    background-image: url(../images/presentation1.png);
+    background-image: url(../images/presentationnew.png);
 }
 #section-2{
 	height:auto;
@@ -48,7 +48,7 @@ background-size: 100% 100%;
 /*    text-align: center;
 */    letter-spacing: 1.5px;
     font-weight: bold;
-    margin: 0 auto;
+    margin: 10vh auto;
         line-height: 1.5;
 -webkit-animation-duration: 2s;
     -moz-animation-duration: 2s;
