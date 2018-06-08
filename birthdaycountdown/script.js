@@ -2,7 +2,7 @@ function countDown(){
 
 	console.log("Hello");
 	var now = new Date();
-	var eventDate = new Date(2018, 0, 31)
+	var eventDate = new Date(2019, 0, 31)
 
 	var currentTime = now.getTime();
 	var eventTime = eventDate.getTime();

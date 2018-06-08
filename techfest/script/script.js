@@ -22,10 +22,10 @@ function countDown(){
 	m= (m<10) ? "0" + m: m;
 	s= (s<10) ? "0" + s: s;
 
-	$('#days').html(d);
-	$('#hours').html(h);
-	$('#minutes').html(m);
-	$('#seconds').html(s);
+	$('#days').html(0);
+	$('#hours').html(0);
+	$('#minutes').html(0);
+	$('#seconds').html(0);
 
 	setTimeout(countDown, 1000);
 }

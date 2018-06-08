@@ -354,7 +354,7 @@ b{
     line-height: 2.4;
     font-size: 2em;
     letter-spacing: 2px;
-    font-family: "Didact Gothic", sans-serif;
+    font-family: "Allan", sans-serif;
     -webkit-font-smoothing: antialiased;
     font-style: italic;
     color: #fff;
@@ -443,7 +443,7 @@ b{
     line-height: 2.4;
     font-size: 1.3em;
     letter-spacing: 2px;
-    font-family: "Didact Gothic", sans-serif;
+    font-family: "Aclonica", sans-serif;
     -webkit-font-smoothing: antialiased;
 
     color: #fff;
@@ -1087,7 +1087,7 @@ width: 220px;
 
     background-color: white;
     background-image: url(../images/fest.png);
-    background-size: 30% 60%;
+    background-size: 100% 100%;
     background-position: 40% center;
     background-repeat: no-repeat;
 
