@@ -354,13 +354,14 @@ b{
     line-height: 2.4;
     font-size: 2em;
     letter-spacing: 2px;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Didact Gothic", sans-serif;
     -webkit-font-smoothing: antialiased;
+    font-style: italic;
+    color: #fff;
 
-    color: black;
 
-
-    font-weight: 700;       
+    font-weight: 700;   
+    background-color: #34354f;    
 }
 
 
@@ -442,12 +443,12 @@ b{
     line-height: 2.4;
     font-size: 1.3em;
     letter-spacing: 2px;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Didact Gothic", sans-serif;
     -webkit-font-smoothing: antialiased;
 
-    color: black;
-
-
+    color: #fff;
+    font-style: italic;
+    background-color: #34354f;
     font-weight: 700;       
     }
 
@@ -726,7 +727,7 @@ width: 220px;
 #java-box{
     width: 50%;
     height: 53vh;
-    background-color: rgb(255, 61, 0);
+    background-color: #d12838;
     opacity: 0.8;
 
     -webkit-animation-duration: 3s;
